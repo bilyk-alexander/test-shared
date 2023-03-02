@@ -1,0 +1,32 @@
+{
+  "root": true,
+  "extends": [
+    "@react-native-community",
+    "prettier"
+  ],
+  "plugins": ["simple-import-sort"],
+  "parserOptions": {
+    "warnOnUnsupportedTypeScriptVersion": false
+  },
+  "rules": {
+    "react-hooks/exhaustive-deps": "off",
+    "no-duplicate-imports": "error",
+    "no-console": "warn",
+    "no-undef": "off",
+    "no-shadow": "off",
+    "no-bitwise": "off",
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
+    "prettier/prettier": [
+      "error",
+      {
+        "quoteProps": "consistent",
+        "singleQuote": true,
+        "tabWidth": 2,
+        "endOfLine": "auto",
+        "trailingComma": "es5",
+        "useTabs": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+babel.config.js
+package.json
+tsconfig.json
+metro.config.js
+/node_modules
+/src/types
+/lib
+/scripts
+/android
+/ios
